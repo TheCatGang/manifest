@@ -655,10 +655,10 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- GZOSP manifest -->
-  <include name="gzosp_default.xml" />
+  <!-- CatOS manifest -->
+  <include name="xml/cat.xml" />
 
-  <!-- CAF manifest -->
-  <include name="caf_default.xml" />
+  <!-- Other Git manifest -->
+  <include name="xml/other.xml" />
 
 </manifest>
